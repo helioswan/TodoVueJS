@@ -1,17 +1,17 @@
 <template>
   <p>
-    {{ task.title }}
+    {{ tasks.title }}
   </p>
   <form>
     <label>
       Completed
-      <input type="checkbox" v-model="task.completed" />
+      <input type="checkbox" v-model="tasks.completed" />
     </label>
   </form>
 </template>
 
 <script setup>
 defineProps({
-  task: Object,
+  tasks: Object,
 });
 </script>
