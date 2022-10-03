@@ -1,20 +1,46 @@
 <script setup>
-import TaskList from "./components/TaskList.vue";
 import { ref } from "vue";
-import TaskForm from "./components/TaskForm.vue";
+import TodoForm from "./components/TodoForm.vue";
+import TodoList from "./components/TodoList.vue";
 
-const tasks = ref([{title: "exmple", completed: true}]);
+const tasks = ref([
+{ title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+  { title: "exmple", completed: true },
+]);
 </script>
 
 <template>
-  <main class="bg-gray-700">
-    <div class="container mx-auto min-h-screen">
-      <h1 class="text-xl text-center text-white">Todolist</h1>
-      <TaskForm :tasks="tasks" />
+  <main
+    class="min-h-screen w-full flex items-center justify-center bg-green-100 font-sans"
+  >
+    <div class="bg-white rounded shadow p-6 m-4 w-full lg:w-3/4 lg:max-w-lg">
+      <div class="mb-4">
+        <h1 class="text-slate-700 text-4xl font-bold mb-6">Todo List</h1>
+        <TodoForm />
+      </div>
       <ul>
-        <li v-for="(tasks, index) in tasks" :key="index">
-          <TaskList :tasks="tasks" />
-        </li>
+        <TodoList/>
       </ul>
     </div>
   </main>
