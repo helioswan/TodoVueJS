@@ -3,31 +3,6 @@ import { ref } from "vue";
 import TodoForm from "./components/TodoForm.vue";
 import TodoList from "./components/TodoList.vue";
 
-const tasks = ref([
-{ title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-  { title: "exmple", completed: true },
-]);
 </script>
 
 <template>

@@ -10,7 +10,7 @@
       />
       <button
         type="submit"
-        class="p-2 border-2 rounded text-green-300 border-green-300 hover:text-white hover:bg-green-300 max-h-12"
+        class="p-2 border-2 rounded text-lime-300 border-lime-300 hover:text-white hover:bg-lime-300 max-h-12"
       >
         Add
       </button>

@@ -14,7 +14,11 @@ export const useTodoListStore = defineStore("TodoList", {
       });
     },
     deleteTodo(TodoId) {
-        this.todoList.filter((todo) => todo.id !== TodoId);
-    }
+      this.todoList = this.todoList.filter((todo) => todo.id !== TodoId);
+    },
+    toggleCompleted(TodoId) {
+      var targetTodo = this.todoList.find((todo) => todo.id === TodoId);
+      if (targetTodo) targetTodo.completed = !targetTodo.completed;
+    },
   },
 });
