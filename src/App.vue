@@ -1,8 +1,6 @@
 <script setup>
-import { ref } from "vue";
 import TodoForm from "./components/TodoForm.vue";
 import TodoList from "./components/TodoList.vue";
-
 </script>
 
 <template>
