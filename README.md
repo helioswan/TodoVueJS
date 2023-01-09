@@ -82,7 +82,7 @@ To use the project, follow these steps:
 
 ### Building for Production
 
-To build the project for production, run the command npm run build. This will create a minified version of the code in the dist directory, ready for deployment.
+To build the project for production, run the command `npm run build`. This will create a minified version of the code in the dist directory, ready for deployment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
