@@ -73,7 +73,7 @@ To install the project, follow these steps:
 To use the project, follow these steps:
 
 1.  Run the command `npm run serve` to start the development server
-2.  Open your browser and go to http://localhost:8080 to view the application
+2.  Open your browser and go to http://localhost:5173 to view the application
 3.  Make any desired changes to the code and the changes will be automatically reflected in the browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
